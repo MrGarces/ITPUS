@@ -4,7 +4,7 @@ from odoo import fields, models, api
 
 
 class Leads(models.Model):
-    _name = 'Leads'
+    _name = 'leads'
 
     name = fields.Char(string='Name')
     phone = fields.Integer(string='Phone no.')
